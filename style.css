@@ -1,0 +1,307 @@
+
+.navbar-default {
+	border: none;
+	background-image: url(images/header_background.png);
+	height: auto;
+
+
+}
+.carousel {
+	/*margin-top: -400px;*/
+
+}
+
+.header {
+	background-image: url(images/header_background.png);
+	margin-top:-21px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-brand p {
+	font-style: italic;
+}
+
+#img_slide {
+	width: 100%;
+	}
+
+	.main {
+		margin: 25px auto;
+		/*min-height: 350px;*/
+	}
+
+
+.main h5,h1 {
+	text-align: center;
+}
+
+.main h5 {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.main h1 {
+	font-size: 38px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#col_one ul {
+	background-image: url(	images/user_icon.png);
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#col_one ul li, #col_two ul li , #col_three ul li {
+	list-style: none;
+	padding-left: 20px;
+}
+
+#col_two ul {
+	background-image: url(	images/message.png);
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+
+#col_three ul {
+	background-image: url(	images/setting.png);
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#col_nopad {
+	margin-top: 30px;
+}
+
+#col_nopad .col-md-6 img {
+	margin-right: 5px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.portfolio {
+	background-image: url(	images/portfolio_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 780px;*/
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+/*.portfolio img {
+	margin-bottom: 5px;
+}*/
+
+
+.form {
+	margin-top: 50px;
+}
+
+#big { height: 675px; }
+
+
+input#email {
+	background-image: url(images/user_icon.png);
+	background-size: cover;
+}
+
+#author_img {
+	padding-left: 25px;
+	color: #a5a9af;
+}
+.image_bottom {
+	color: #a5a9af;
+	font-style: italic;
+	margin-top: -135px;
+	margin-left: 20px;
+}
+
+
+input#exampleInputEmail1 {
+	background-image: url(images/feedback_user.png),url(images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+		background-position: left center;
+	
+
+}
+
+
+input#exampleInputPassword1 {
+	background-image: url(images/feedback_message.png),url(images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+input#exampleInputPassword2 {
+	background-image: url(images/globe.png),url(images/feedback_input_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#textarea {
+	background: url(images/feedback_message_bg.png);
+		background-repeat: no-repeat;
+		
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+
+@media (max-width: 768px ) {
+	.navbar-default {
+	border: none;
+	
+	height: auto;
+}
+
+.navbar-brand p{
+	margin: 0;
+
+
+}
+
+.portfolio {
+	background-image: url(	images/portfolio_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+	#author {
+		margin-top: 30px;
+		width: 180px;
+		margin: 0 auto;	
+
+	}
+
+	#author_img p {
+		margin-top: 30px;
+		text-align: center;
+	}
+		.image_bottom {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		#row_about {
+			text-align: center;
+		}
+
+		.form-group .btn {
+			margin-left: 33%;
+		}
+
+
+
+input#exampleInputEmail1 {
+	width: 400px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#exampleInputPassword1{
+	width: 400px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#exampleInputPassword2 {
+	width: 400px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#textarea {
+	width: 400px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+.form-group .btn {
+	
+	margin-left: 40%;
+
+
+}
+
+
+ }
+
+
+@media (min-width:768px) and (max-width: 992px) { 
+
+		#author {
+		margin:20px auto;
+		width: 250px;
+
+	}
+
+	#author_img p {
+		margin-top: 30px;
+	}
+.image_bottom {
+	margin-top: 20px;
+}
+
+#col_nopad {
+	width: 750px;
+
+	
+}
+#big {
+	
+	width: 300px;
+}
+
+
+
+input#exampleInputEmail1 {
+	width: 450px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#exampleInputPassword1{
+	width: 450px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#exampleInputPassword2 {
+	width: 450px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+#textarea {
+	width: 450px;
+	/*transform: translateX(50%); */
+	margin: 0 auto;
+}
+
+.form-group .btn {
+	
+	margin-left: 40%;
+
+
+}
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+
+ }
+@media (min-width: 1200px) { 
+
+
+ }
